@@ -12,7 +12,7 @@ import tkinter
 dailiip = "222.74.202.229"
 port = "8080"
 options = webdriver.ChromeOptions()
-driverpath = "D:\Chromedriver\chromedriver.exe"
+driverpath = "chromedriver.exe"
 # 在下面添加你的账号信息和要刷的步数，格式为【账号#密码#步数】，例如【15312341234#123456#12000】
 user_infos = [""]
 driver = None
