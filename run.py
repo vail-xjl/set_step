@@ -94,14 +94,16 @@ def run(isvritual, begin=0, end=0):
 
 
 def main():
-    for i in range(3):
-        if i < 2:
+    count_full = len(user_infos) // 3
+    count_residual = len(user_infos) % 3
+    for i in range(count_full + 1):
+        if i < count_full:
             run(False, i * 3, i * 3 + 3)
             root = tkinter.Tk()
             messagebox.showinfo("提示", "已执行完第【%d】轮,点击【确定】开启下一轮" % (i + 1))
             root.destroy()
         else:
-            run(False, i * 3, i * 3 + 1)
+            run(False, i * 3, i * 3 + count_residual)
     # 单个执行
     # run(False, 2, 3)
 
