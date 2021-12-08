@@ -7,7 +7,7 @@
 <h5>※当然如果你是IT界的或者是喜欢敲代码的人，那么你可能很容易就开始使用了（如果你有pycharm编译器并且正好你的运行环境下有selenium这个包的话）</h5>
 <ol>
     <li>准备任意一个可以运行Python代码的编译器（笔者推荐pycharm，其他的也完全可以，安装方式可以问度娘）</li>
-    <li>在这个网址里【http://npm.taobao.org/mirrors/chromedriver/】找到与你的谷歌浏览器版本相同的核，点击下载下来，命名为【chromedriver】</li>
+    <li>在这个网址里【 http://npm.taobao.org/mirrors/chromedriver/ 】找到与你的谷歌浏览器版本相同的核，点击下载下来，命名为【chromedriver】</li>
     <li>在你想要运行这份儿刷步代码的环境下安装selenium包
         <ul>
             <li>按win+R，输入cmd并敲回车</li>
